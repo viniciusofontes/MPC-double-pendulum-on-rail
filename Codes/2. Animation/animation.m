@@ -49,7 +49,7 @@ x0 = [x theta1 theta2 dxdt dtheta1dt dtheta2dt]';
 % Horizontal force applied on the cart (N)
 F = 0;
 % Initial and final time of the simulation (s)
-tspan = [0 5];
+tspan = [0 10];
 
 
 %% Processing
@@ -80,7 +80,7 @@ for i = 1:length(t)
   % Plot the upper pendulum
   plot([x1 x2],[y1 y2],'-r','linewidth',2)
   hold off
-  legend({'Cart';'Lower pendulum';'Upper pendulum'},...
-    'interpreter','latex','location','nw')
+%   legend({'Cart';'Lower pendulum';'Upper pendulum'},...
+%     'interpreter','latex','location','nw')
   pause(.001)
 end
