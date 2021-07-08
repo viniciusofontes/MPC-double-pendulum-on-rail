@@ -35,7 +35,7 @@ set(0,'DefaultFigureWindowStyle','docked')
 % Horizontal position of the cart (m)
 x = 0;
 % Angle between the lower pendulum and vertical axis (rad)
-theta1 = deg2rad(0);
+theta1 = deg2rad(45);
 % Angle between the upper pendulum and vertical axis (rad)
 theta2 = deg2rad(45);
 % Horizontal velocity of the cart (m)
