@@ -4,8 +4,8 @@
 
 ## Authorship
 I, Vinicius (reach me at vinicius.fontes@aluno.puc-rio.br), have headed the efforts to build and publish this work, which also belongs to the following authors:
-- Bruno
-- Nicholas Casaprima
+- Bruno Barreto Irmão (barreto.engmec@gmail.com)
+- Nicholas Casaprima (nicholascasaprima@gmail.com)
 - Walisson Pinto
 
 This work has been comissioned by dr. Helon Ayala for the class "Control of Mechanical Systems" taught at the Pontifical Catholic University of Rio de Janeiro (1st semester of 2021). For further information, check https://github.com/helonayala/
@@ -20,7 +20,7 @@ This repo consists in the following set of Matlab® Livescripts with the impleme
 
 The in-depth explanation of the code is meant to aid the reader in every step of the implementation, for teaching purposes, hence some choices have been adopted to favor readability rather than perfomance. The parametrization of the controller was set to values that show the application of the MPC method, but could be further optimized (try it yourself by changing the weight matrices).
 
-Derivation and parameters are based on [1]. Matlab implementation was based on [2], where significant changes were made to make it easier to read. An optimization tool [3] has been used to improve performance.
+Derivation and parameters are based on [1]. Matlab implementation was based on [2], where significant changes were made to make it easier to read. An optimization tool [3] has been used to improve performance. You can check this system working in real life in [4].
 
 ## References
 
@@ -32,3 +32,6 @@ https://github.com/MMehrez/MPC-and-MHE-implementation-in-MATLAB-using-Casadi
 [3] Andersson, J. A. E.; Gillis, J.; Horn, G.; Rawlings, J. B. & Diehl, M.
 CasADi -- A software framework for nonlinear optimization and optimal control 
 Mathematical Programming Computation, In Press, 2018
+
+[4] Viennas University of Technology (VUT) - Automation & Control Institute; Technische Universität Wien (TU Wien) - Institut für Automatisierungs- & Regelungstechnik.
+https://www.youtube.com/watch?v=tyyitW4WS14c
