@@ -1,6 +1,6 @@
 # Model Predictive Control of a double pendulum on a cart
 
-![pendulum](https://user-images.githubusercontent.com/86233848/126026020-eb7bc4bc-d88f-47a6-b705-c96534d0fc6c.jpg)
+![Animation](https://user-images.githubusercontent.com/86233848/126040719-fc964595-0d7a-4aad-94c9-11c726dacc9c.gif)
 
 ## Authorship
 I, Vinicius (reach me at vinicius.fontes@aluno.puc-rio.br), have headed the efforts to build and publish this work, which also belongs to the following authors:
